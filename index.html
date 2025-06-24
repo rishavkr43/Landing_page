@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-container">
+                
+        <ul class="nav-links">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Product</a></li>
+            <li><a href="#" class="nav-link">Pricing</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="logo">
+            <img src="images/center.png" alt="Logo"></div>
+        
+        <div class="social-icons">
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="24">
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="24">
+            </a>
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" width="24">
+            </a>
+        </div>
+    </div>
+</nav>  
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-title">The best products start with Figma</h1>
+            <p class="hero-subtitle">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <button class="btn-cta">Try for free</button>
+        </div>
+    </section>
+
+   <!-- Features Section -->
+<section class="features">
+    <div class="features-container">
+        <h2 class="features-title">Features</h2>
+        <p class="features-subtitle">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="images/mdi_drawing.png" alt="Design icon" width="40">
+                </div>
+                <h3>OpenType features variable fonts</h3>
+                <p>Slate helps you how many days you need to work to reach your financial goals</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="images/mdi_draw.png" alt="Design icon" width="40">
+                </div>
+                <h3>Design with real data</h3>
+                <p>Slate helps you how many days you need to work to reach your financial goals</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="images/mdi_brush.png" alt="Design icon" width="40">
+                </div>
+                <h3>Faster way to take actions</h3>
+                <p>Slate helps you how many days you need to work to reach your financial goals</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Video Section -->
+<section class="video-section">
+    <div class="video-container">
+        <div class="video-content">
+            <div class="video-player">
+                <video id="mainVideo" poster="images/thumbnail.PNG" preload="metadata">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <button class="play-btn" id="playBtn">
+                    <svg width="70" height="70" viewBox="0 0 60 60" fill="none">
+                        <circle cx="30" cy="30" r="30" fill="#2196F3"/>
+                        <path d="M23 20L23 40L37 30L23 20Z" fill="white"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--organize section -->
+<section class="organize-section">
+  <div class="organize-container">
+    <div class="organize-text">
+      <h2>Fastest way to organize</h2>
+      <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+      <button class="bton-primary">Try For Free</button>
+    </div>
+    <div class="organize-image">
+      <img src="images/screen content.png" alt="Laptop showing activity" />
+    </div>
+  </div>
+</section>
+
+<!-- newsletter section -->
+<section class="newsletter-section">
+  <div class="newsletter-container">
+    <div class="newsletter-image">
+      <img src="images/screen content1.png" alt="Newsletter illustration">
+    </div>
+    <div class="newsletter-content">
+      <p class="mini-heading">At your fingertips</p>
+      <h2>Lightning fast prototyping</h2>
+      <p class="subtext">Subscribe to our <strong>Newsletter</strong><br>Available exclusively on Figmaland</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Partners Section -->
+    <section class="partners">
+  <div class="partners-container">
+    <h1>Partners</h1>
+    <p class="partners-subtitle">Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
+
+    <div class="partner-grid">
+      <div class="partner-card">
+        <p>Client Name</p>
+        <img src="images/logos_google.png" alt="Google" />
+      </div>
+      <div class="partner-card">
+        <p>Client Name</p>
+        <img src="images/Amazon.png" alt="Amazon" />
+      </div>
+      <div class="partner-card">
+        <p>Client Name</p>
+        <img src="images/Microsoft.png" alt="Microsoft" />
+      </div>
+      <div class="partner-card">
+        <p>Client Name</p>
+        <img src="images/Uber.png" alt="Uber" />
+      </div>
+
+      <!--row 2 -->
+      <div class="partner-card">
+        <p>Client Name</p>
+        <img src="images/Dropbox.png" alt="Dropbox" />
+      </div>
+      <div class="partner-card">
+        <p>Client Name</p>
+        <img src="images/logos_google.png" alt="Google" />
+      </div>
+      <div class="partner-card">
+        <p>Client Name</p>
+        <img src="images/Uber.png" alt="Uber" />
+      </div>
+      <div class="partner-card">
+        <p>Client Name</p>
+        <img src="images/Amazon.png" alt="Amazon" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Testimonials -->
+
+<section class="testimonials">
+    <div class="testimonials-container">
+        <h3>Testimonials</h3>
+        
+        <div class="testimonial-slider">
+            <div class="testimonial-slides">
+                <!-- Slide 1 -->
+                <div class="testimonial-slide active">
+                    <div class="testimonial-card-large">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111659.png" alt="Google" class="company-logo">
+                        <blockquote>
+                            "Slate has transformed how we manage our projects. The intuitive design and powerful features have increased our team's productivity by 40%. It's exactly what we needed for our fast-paced environment."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <strong class="author-name">Sarah Johnson</strong>
+                                <span class="author-title">Product Manager, Google</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="testimonial-slide">
+                    <div class="testimonial-card-large">
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Microsoft" class="company-logo">
+                        <blockquote>
+                            "The collaboration features in Slate are outstanding. Our remote team can work seamlessly together, and the real-time updates keep everyone in sync. It's become an essential part of our workflow."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <strong class="author-name">Michael Chen</strong>
+                                <span class="author-title">Design Lead, Microsoft</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="testimonial-slide">
+                    <div class="testimonial-card-large">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Dropbox" class="company-logo">
+                        <blockquote>
+                            "Implementing Slate was one of the best decisions we made this year. The learning curve was minimal, and the impact on our project delivery times has been remarkable. Highly recommended!"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <strong class="author-name">Emily Rodriguez</strong>
+                                <span class="author-title">Operations Director, Dropbox</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slider Dots -->
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="pricing-container">
+            <h2>Pricing</h2>
+            <p>Most calendars are designed for teams<br> Slate is designed for freelancers</p>
+
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h4>Free</h4>
+                   
+                    <div class="price">
+                        <span class="amount">0</span>
+                        <span class="currency"><sup>$</sup></span>
+                        <span class="period">Per Month</span>
+                    </div>
+                        <ul>Pricing Feature</ul>
+                        <ul>Pricing Feature</ul>
+                        <ul>Pricing Feature</ul>
+                        <ul>Pricing Feature</ul>
+                        <ul>Pricing Feature</ul>
+                        <button class="btn-outline">Order Now</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <h4>Standard</h4>
+                    <div class="price">
+                        <span class="amount">10</span>
+                        <span class="currency"><sup>$</sup></span>
+                        <span class="period">Per Month</span>
+                    </div>
+                    <div>
+                    <ul>Pricing Feature</ul>
+                    <ul>Pricing Feature</ul>
+                    <ul>Pricing Feature</ul>
+                    <ul>Pricing Feature</ul>
+                    <ul>Pricing Feature</ul></div>
+                    
+                    <button class="btn-ordinary">Order Now</button>
+                </div>
+
+                <div class="pricing-card">
+                    <h4>Business</h4>
+                    <div class="price">
+                        <span class="amount">99</span>
+                        <span class="currency"><sup>$</sup></span>
+                        <span class="period">Per Month</span>
+                    </div>
+                    <div>
+                   <ul>Pricing Feature</ul>
+                   <ul>Pricing Feature</ul>
+                   <ul>Pricing Feature</ul>
+                   <ul>Pricing Feature</ul>
+                   <ul>Pricing Feature</ul>
+                   </div>
+                    <button class="btn-outline">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <p>Most calendars are designed for teams.<br>Slate is designed for freelancers.</p>
+                    <form id="contactForm">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" rows="4" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29443538.9620802!2d61.02101754100091!3d19.731627470788023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e1!3m2!1sen!2sin!4v1750751190625!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pages</h4>
+                    <a href="#">Home</a>
+                    <a href="#">Features</a>
+                    <a href="#">Partners</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Tomothy</h4>
+                    <a href="#">Eleanor Edwards</a>
+                    <a href="#">Ted Robertson</a>
+                    <a href="#">Annette Russell</a>
+                    <a href="#">Jennie Mackinney</a>
+                    <a href="#">Gloria Richards </a>
+                </div>
+                <div class="footer-section">
+                    <h4>Jane Black</h4>
+                    <a href="#">Philip Jones</a>
+                    <a href="#">Product</a>
+                    <a href="#">Colleen Russell</a>
+                    <a href="#">Marvin Hawkins</a>
+                     <a href="#">Bruce Simmons</a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">YouTube</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
+
+
+<!-- .btn-primary {
+    background: #0066ff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #0052cc;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-outline {
+    background: transparent;
+    color: #0066ff;
+    border: 2px solid #0066ff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    background: #0066ff;
+    color: white;
+}```
