@@ -2,6 +2,11 @@
 
 This is a simple landing page created using HTML, CSS, and JavaScript.
 
+
+## Live Link
+
+https://rishavkr43.github.io/Landing_page/
+
 ## Features
 
 *   Hero section with a title, subtitle, and call-to-action button
@@ -23,3 +28,4 @@ To run this project, simply open the `index.html` file in your browser.
 ## Author
 
 Rishav Kumar
+
